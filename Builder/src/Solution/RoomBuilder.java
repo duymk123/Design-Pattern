@@ -1,7 +1,7 @@
 package Solution;
 
 public class RoomBuilder {
-    private String bed = "bed";
+    private String bed;
     private boolean wifi;
     private boolean tv;
     private boolean cabinet;
