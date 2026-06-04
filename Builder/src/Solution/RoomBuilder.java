@@ -1,31 +1,40 @@
 package Solution;
 
-public class RoomBuilder {
+import java.io.Serializable;
+
+public class RoomBuilder implements Builder {
+
     private String bed;
     private boolean wifi;
     private boolean tv;
     private boolean cabinet;
 
-    public RoomBuilder setBed(String bed) {
+
+    @Override
+    public Builder buildBed(String bed) {
         this.bed = bed;
         return this;
     }
 
-    public RoomBuilder enableWifi() {
+    @Override
+    public Builder buildWifi() {
         this.wifi = true;
         return this;
     }
 
-    public RoomBuilder enableTv() {
+    @Override
+    public Builder buildTv() {
         this.tv = true;
         return this;
     }
 
-    public RoomBuilder enableCabinet() {
+    @Override
+    public Builder buildCabinet() {
         this.cabinet = true;
         return this;
     }
 
+    @Override
     public Room build() {
         return new Room(bed, wifi, tv, cabinet);
     }
