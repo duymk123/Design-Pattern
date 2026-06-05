@@ -1,4 +1,9 @@
-### Ý tưởng cốt lõi cần nhớ
+### Ý tưởng cốt lõi cần nhớ:
+
+**_descr:_** Khi một class có 10 thuộc tính -> rõ ràng sẽ phải tạo 1 constructor có đủ 10 tham số. Nhưng thực tế họ không có
+giá trị, hay không muốn điền đầy đủ giá trị của 10 tham số ( ví dụ họ chỉ có giá trị của 6 tham số-> những tham số còn
+lại họ sẽ truyền null -> nhìn code sẽ không clear) -> dễ hiểu là mình có nhiều thuộc tính nhưng mình muốn tạo object từ
+thuộc tính nào thì mình chỉ cần thiết lập giá trị cho thuộc tính đó thôi.
 
 **Builder xuất hiện khi:** "Đối tượng có nhiều thuộc tính, đặc biệt là nhiều thuộc tính tùy chọn."
 
