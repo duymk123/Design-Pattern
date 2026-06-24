@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Builder/Builder.iml" filepath="$PROJECT_DIR$/Builder/Builder.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Factory Method/Factory Method.iml" filepath="$PROJECT_DIR$/Factory Method/Factory Method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational Pattern/Builder/Builder.iml" filepath="$PROJECT_DIR$/Creational Pattern/Builder/Builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational Pattern/Factory Method/Factory Method.iml" filepath="$PROJECT_DIR$/Creational Pattern/Factory Method/Factory Method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Structural Pattern/Proxy Pattern/Proxy Pattern.iml" filepath="$PROJECT_DIR$/Structural Pattern/Proxy Pattern/Proxy Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern.iml" filepath="$PROJECT_DIR$/design-pattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/singleton/singleton.iml" filepath="$PROJECT_DIR$/singleton/singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational Pattern/singleton/singleton.iml" filepath="$PROJECT_DIR$/Creational Pattern/singleton/singleton.iml" />
     </modules>
   </component>
 </project>
